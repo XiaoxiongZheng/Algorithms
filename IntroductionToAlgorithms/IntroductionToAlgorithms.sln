@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BarsCutting", "IntroductionToAlgorithms\IntroductionToAlgorithms.vcxproj", "{843C8747-6CC9-4D3E-ACA9-7F20B9A43344}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sqrt_X", "MatrixChainMultiplicationProblem\MatrixChainMultiplicationProblem.vcxproj", "{26B439CE-CA10-443D-9746-91A35AA80A4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixChainMultiplication", "MatrixChainMultiplication\MatrixChainMultiplication.vcxproj", "{9766B124-F15E-4C7A-9B94-F2D5C9D5B3DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonSubsequenceProblem", "LongestCommonSubsequenceProblem\LongestCommonSubsequenceProblem.vcxproj", "{985EAAB9-6E49-4DC3-9A46-5175BC0943AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestPalindromeSubstring", "LongestPalindromeSubstring\LongestPalindromeSubstring.vcxproj", "{5E715481-8266-4763-842C-162F3E74D956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843C8747-6CC9-4D3E-ACA9-7F20B9A43344}.Debug|Win32.ActiveCfg = Debug|Win32
+		{843C8747-6CC9-4D3E-ACA9-7F20B9A43344}.Debug|Win32.Build.0 = Debug|Win32
+		{843C8747-6CC9-4D3E-ACA9-7F20B9A43344}.Release|Win32.ActiveCfg = Release|Win32
+		{843C8747-6CC9-4D3E-ACA9-7F20B9A43344}.Release|Win32.Build.0 = Release|Win32
+		{26B439CE-CA10-443D-9746-91A35AA80A4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26B439CE-CA10-443D-9746-91A35AA80A4A}.Debug|Win32.Build.0 = Debug|Win32
+		{26B439CE-CA10-443D-9746-91A35AA80A4A}.Release|Win32.ActiveCfg = Release|Win32
+		{26B439CE-CA10-443D-9746-91A35AA80A4A}.Release|Win32.Build.0 = Release|Win32
+		{9766B124-F15E-4C7A-9B94-F2D5C9D5B3DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9766B124-F15E-4C7A-9B94-F2D5C9D5B3DA}.Debug|Win32.Build.0 = Debug|Win32
+		{9766B124-F15E-4C7A-9B94-F2D5C9D5B3DA}.Release|Win32.ActiveCfg = Release|Win32
+		{9766B124-F15E-4C7A-9B94-F2D5C9D5B3DA}.Release|Win32.Build.0 = Release|Win32
+		{985EAAB9-6E49-4DC3-9A46-5175BC0943AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{985EAAB9-6E49-4DC3-9A46-5175BC0943AE}.Debug|Win32.Build.0 = Debug|Win32
+		{985EAAB9-6E49-4DC3-9A46-5175BC0943AE}.Release|Win32.ActiveCfg = Release|Win32
+		{985EAAB9-6E49-4DC3-9A46-5175BC0943AE}.Release|Win32.Build.0 = Release|Win32
+		{5E715481-8266-4763-842C-162F3E74D956}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E715481-8266-4763-842C-162F3E74D956}.Debug|Win32.Build.0 = Debug|Win32
+		{5E715481-8266-4763-842C-162F3E74D956}.Release|Win32.ActiveCfg = Release|Win32
+		{5E715481-8266-4763-842C-162F3E74D956}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
