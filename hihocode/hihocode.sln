@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeneticEngineering", "Genet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FillSubmittedCard", "FillSubmittedCard\FillSubmittedCard.vcxproj", "{E75BE6BD-7610-4C9E-8F49-1E44B139CE88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestPathinTree", "LongestPathinTree\LongestPathinTree.vcxproj", "{7C6E85F3-B20A-4721-916A-4AA14BE3694B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{E75BE6BD-7610-4C9E-8F49-1E44B139CE88}.Debug|Win32.Build.0 = Debug|Win32
 		{E75BE6BD-7610-4C9E-8F49-1E44B139CE88}.Release|Win32.ActiveCfg = Release|Win32
 		{E75BE6BD-7610-4C9E-8F49-1E44B139CE88}.Release|Win32.Build.0 = Release|Win32
+		{7C6E85F3-B20A-4721-916A-4AA14BE3694B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C6E85F3-B20A-4721-916A-4AA14BE3694B}.Debug|Win32.Build.0 = Debug|Win32
+		{7C6E85F3-B20A-4721-916A-4AA14BE3694B}.Release|Win32.ActiveCfg = Release|Win32
+		{7C6E85F3-B20A-4721-916A-4AA14BE3694B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
