@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PNRPEN", "LeetCode\LeetCode.vcxproj", "{EB28C50A-258F-4098-B4A5-2CFE30E1FC23}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClimbingStairs", "ClimbingStairs\ClimbingStairs.vcxproj", "{C3B0EDC8-27B1-466E-A869-7D7E91B0FCCD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwapNodesinPairs", "SwapNodesinPairs\SwapNodesinPairs.vcxproj", "{4348C0FD-0AEC-44E8-A963-FDD183D3B212}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRUCache", "LRUCache\LRUCache.vcxproj", "{14831901-30AD-40A3-91E8-112A27DB29CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumProductSubarray", "MaximumProductSubarray\MaximumProductSubarray.vcxproj", "{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB28C50A-258F-4098-B4A5-2CFE30E1FC23}.Debug|Win32.ActiveCfg = Debug|Win32
-		{EB28C50A-258F-4098-B4A5-2CFE30E1FC23}.Debug|Win32.Build.0 = Debug|Win32
-		{EB28C50A-258F-4098-B4A5-2CFE30E1FC23}.Release|Win32.ActiveCfg = Release|Win32
-		{EB28C50A-258F-4098-B4A5-2CFE30E1FC23}.Release|Win32.Build.0 = Release|Win32
 		{C3B0EDC8-27B1-466E-A869-7D7E91B0FCCD}.Debug|Win32.ActiveCfg = Debug|Win32
 		{C3B0EDC8-27B1-466E-A869-7D7E91B0FCCD}.Debug|Win32.Build.0 = Debug|Win32
 		{C3B0EDC8-27B1-466E-A869-7D7E91B0FCCD}.Release|Win32.ActiveCfg = Release|Win32
@@ -31,6 +27,10 @@ Global
 		{14831901-30AD-40A3-91E8-112A27DB29CD}.Debug|Win32.Build.0 = Debug|Win32
 		{14831901-30AD-40A3-91E8-112A27DB29CD}.Release|Win32.ActiveCfg = Release|Win32
 		{14831901-30AD-40A3-91E8-112A27DB29CD}.Release|Win32.Build.0 = Release|Win32
+		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Debug|Win32.Build.0 = Debug|Win32
+		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Release|Win32.ActiveCfg = Release|Win32
+		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
