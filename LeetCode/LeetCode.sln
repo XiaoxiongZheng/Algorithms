@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRUCache", "LRUCache\LRUCac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumProductSubarray", "MaximumProductSubarray\MaximumProductSubarray.vcxproj", "{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{5DAFB79F-337E-45F2-B3EC-028D279B47B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Debug|Win32.Build.0 = Debug|Win32
 		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Release|Win32.ActiveCfg = Release|Win32
 		{CCAC4910-6B4D-4EEF-A70D-9980C08BFF40}.Release|Win32.Build.0 = Release|Win32
+		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Debug|Win32.Build.0 = Debug|Win32
+		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Release|Win32.ActiveCfg = Release|Win32
+		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
