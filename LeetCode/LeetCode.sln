@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumProductSubarray", "M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{5DAFB79F-337E-45F2-B3EC-028D279B47B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MedianOfTwoSortedArrays", "MedianOfTwoSortedArrays\MedianOfTwoSortedArrays.vcxproj", "{3C2A2E39-DB54-4F33-AE5A-0F6A73C8838E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.vcxproj", "{DB3B4750-ADBC-46C8-A3BB-6F6DEA1C7B9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +41,14 @@ Global
 		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Debug|Win32.Build.0 = Debug|Win32
 		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Release|Win32.ActiveCfg = Release|Win32
 		{5DAFB79F-337E-45F2-B3EC-028D279B47B9}.Release|Win32.Build.0 = Release|Win32
+		{3C2A2E39-DB54-4F33-AE5A-0F6A73C8838E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C2A2E39-DB54-4F33-AE5A-0F6A73C8838E}.Debug|Win32.Build.0 = Debug|Win32
+		{3C2A2E39-DB54-4F33-AE5A-0F6A73C8838E}.Release|Win32.ActiveCfg = Release|Win32
+		{3C2A2E39-DB54-4F33-AE5A-0F6A73C8838E}.Release|Win32.Build.0 = Release|Win32
+		{DB3B4750-ADBC-46C8-A3BB-6F6DEA1C7B9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB3B4750-ADBC-46C8-A3BB-6F6DEA1C7B9F}.Debug|Win32.Build.0 = Debug|Win32
+		{DB3B4750-ADBC-46C8-A3BB-6F6DEA1C7B9F}.Release|Win32.ActiveCfg = Release|Win32
+		{DB3B4750-ADBC-46C8-A3BB-6F6DEA1C7B9F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
