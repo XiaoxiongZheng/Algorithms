@@ -4,10 +4,9 @@ using namespace std;
 
 const int MAXSIZE = 500;
 
-/*
 
 //BigGod of Yibo codes
-class Solution {
+class YB_Solution {
 	public:
 		string longestPalindrome(string s) ;
 } F;
@@ -27,7 +26,7 @@ bool Finda(int i,int j) {
 }
 
 //Dynamic Programming
-string Solution::longestPalindrome(string _s) {
+string YB_Solution::longestPalindrome(string _s) {
 	s = _s ;
 	memset( visited , false , sizeof(visited)) ;
 	for (int i=0; i < s.size(); i++)
@@ -39,7 +38,8 @@ string Solution::longestPalindrome(string _s) {
 			if ( a[i][j] && j-i+1 > maxLen ) maxLen = j-i+1 , sta = i ;
 	return s.substr(sta, maxLen);
 }
-*/
+//YB_end
+
 
 class Solution{
 public:
