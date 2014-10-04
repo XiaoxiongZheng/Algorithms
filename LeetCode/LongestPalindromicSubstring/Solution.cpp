@@ -89,7 +89,7 @@ public:
 		for(int i=1; i<length; i++)
 		{
 			if(max>i)
-				range[i] = min(range[2*id-i], max-i);
+				range[i] = min(range[2*id-i], max-i);//不加一是因为，max = i+range[i]，max是i到恰好到不了的那个位置
 			else
 				range[i] = 1;
 			
