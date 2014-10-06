@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigZagConversion", "ZigZagC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInteger", "ReverseInteger\ReverseInteger.vcxproj", "{EF7002CA-F3E4-49DA-8B1B-8D11A4B984FA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringToInteger", "StringToInteger\StringToInteger.vcxproj", "{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +69,10 @@ Global
 		{EF7002CA-F3E4-49DA-8B1B-8D11A4B984FA}.Debug|Win32.Build.0 = Debug|Win32
 		{EF7002CA-F3E4-49DA-8B1B-8D11A4B984FA}.Release|Win32.ActiveCfg = Release|Win32
 		{EF7002CA-F3E4-49DA-8B1B-8D11A4B984FA}.Release|Win32.Build.0 = Release|Win32
+		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Debug|Win32.Build.0 = Debug|Win32
+		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Release|Win32.ActiveCfg = Release|Win32
+		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
