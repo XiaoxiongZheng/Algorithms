@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInteger", "ReverseIn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringToInteger", "StringToInteger\StringToInteger.vcxproj", "{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.vcxproj", "{8913461B-8C71-48E6-84BA-E6690A5BF63B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -73,6 +75,10 @@ Global
 		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Debug|Win32.Build.0 = Debug|Win32
 		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Release|Win32.ActiveCfg = Release|Win32
 		{8E575F1A-72A2-4B3E-A64A-15C63DE9DD7D}.Release|Win32.Build.0 = Release|Win32
+		{8913461B-8C71-48E6-84BA-E6690A5BF63B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8913461B-8C71-48E6-84BA-E6690A5BF63B}.Debug|Win32.Build.0 = Debug|Win32
+		{8913461B-8C71-48E6-84BA-E6690A5BF63B}.Release|Win32.ActiveCfg = Release|Win32
+		{8913461B-8C71-48E6-84BA-E6690A5BF63B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
