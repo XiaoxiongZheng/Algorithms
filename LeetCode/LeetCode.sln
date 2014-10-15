@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainerWithMostWater", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum", "3Sum\3Sum.vcxproj", "{831F7FB8-3AE2-4E09-A26E-E0E1B8B71703}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3SumClosest", "3SumClosest\3SumClosest.vcxproj", "{AC0A8FFC-7DD1-41C8-974C-9B0F97AAE808}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.vcxproj", "{A1319AC0-7778-4E4D-A6AF-CDA89C2B1AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +95,14 @@ Global
 		{831F7FB8-3AE2-4E09-A26E-E0E1B8B71703}.Debug|Win32.Build.0 = Debug|Win32
 		{831F7FB8-3AE2-4E09-A26E-E0E1B8B71703}.Release|Win32.ActiveCfg = Release|Win32
 		{831F7FB8-3AE2-4E09-A26E-E0E1B8B71703}.Release|Win32.Build.0 = Release|Win32
+		{AC0A8FFC-7DD1-41C8-974C-9B0F97AAE808}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC0A8FFC-7DD1-41C8-974C-9B0F97AAE808}.Debug|Win32.Build.0 = Debug|Win32
+		{AC0A8FFC-7DD1-41C8-974C-9B0F97AAE808}.Release|Win32.ActiveCfg = Release|Win32
+		{AC0A8FFC-7DD1-41C8-974C-9B0F97AAE808}.Release|Win32.Build.0 = Release|Win32
+		{A1319AC0-7778-4E4D-A6AF-CDA89C2B1AAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1319AC0-7778-4E4D-A6AF-CDA89C2B1AAD}.Debug|Win32.Build.0 = Debug|Win32
+		{A1319AC0-7778-4E4D-A6AF-CDA89C2B1AAD}.Release|Win32.ActiveCfg = Release|Win32
+		{A1319AC0-7778-4E4D-A6AF-CDA89C2B1AAD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
