@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeLevelOrderTravers
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeLevelOrderTraversal_II", "BinaryTreeLevelOrderTraversal_II\BinaryTreeLevelOrderTraversal_II.vcxproj", "{CD80BB4B-A761-4C3A-B87A-79DE680C0ABB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeZigZagLevelOrderTraversal", "BinaryTreeZigZagLevelOrderTraversal\BinaryTreeZigZagLevelOrderTraversal.vcxproj", "{44183764-207A-42F6-91AC-F73284A9D046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -133,6 +135,10 @@ Global
 		{CD80BB4B-A761-4C3A-B87A-79DE680C0ABB}.Debug|Win32.Build.0 = Debug|Win32
 		{CD80BB4B-A761-4C3A-B87A-79DE680C0ABB}.Release|Win32.ActiveCfg = Release|Win32
 		{CD80BB4B-A761-4C3A-B87A-79DE680C0ABB}.Release|Win32.Build.0 = Release|Win32
+		{44183764-207A-42F6-91AC-F73284A9D046}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44183764-207A-42F6-91AC-F73284A9D046}.Debug|Win32.Build.0 = Debug|Win32
+		{44183764-207A-42F6-91AC-F73284A9D046}.Release|Win32.ActiveCfg = Release|Win32
+		{44183764-207A-42F6-91AC-F73284A9D046}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
