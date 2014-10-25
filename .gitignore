@@ -4,3 +4,4 @@ Release/
 *.sdf
 *.suo
 *.vcxproj.filters
+*.vcxproj
