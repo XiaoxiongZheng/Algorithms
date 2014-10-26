@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTreeMaximumPathSum", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleNumberII", "SingleNumberII\SingleNumberII.vcxproj", "{BCBCAD02-4E30-452B-A01D-2E4EC7D6EBFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subsets", "Subsets\Subsets.vcxproj", "{2E55F341-E612-494A-90FE-F184FF41F327}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -283,6 +285,14 @@ Global
 		{BCBCAD02-4E30-452B-A01D-2E4EC7D6EBFF}.Release|Win32.ActiveCfg = Release|Win32
 		{BCBCAD02-4E30-452B-A01D-2E4EC7D6EBFF}.Release|Win32.Build.0 = Release|Win32
 		{BCBCAD02-4E30-452B-A01D-2E4EC7D6EBFF}.Release|x64.ActiveCfg = Release|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Debug|Win32.Build.0 = Debug|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Debug|x64.ActiveCfg = Debug|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Release|ARM.ActiveCfg = Release|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Release|Win32.ActiveCfg = Release|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Release|Win32.Build.0 = Release|Win32
+		{2E55F341-E612-494A-90FE-F184FF41F327}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
