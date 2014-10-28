@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeKsortedLists", "MergeK
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinimumDepthOfBinaryTree", "MinimumDepthOfBinaryTree\MinimumDepthOfBinaryTree.vcxproj", "{F85160C5-94D4-4FAD-9772-96C261168E92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathSum", "PathSum\PathSum.vcxproj", "{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -313,6 +315,14 @@ Global
 		{F85160C5-94D4-4FAD-9772-96C261168E92}.Release|Win32.ActiveCfg = Release|Win32
 		{F85160C5-94D4-4FAD-9772-96C261168E92}.Release|Win32.Build.0 = Release|Win32
 		{F85160C5-94D4-4FAD-9772-96C261168E92}.Release|x64.ActiveCfg = Release|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Debug|ARM.ActiveCfg = Debug|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Debug|Win32.Build.0 = Debug|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Debug|x64.ActiveCfg = Debug|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Release|ARM.ActiveCfg = Release|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Release|Win32.ActiveCfg = Release|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Release|Win32.Build.0 = Release|Win32
+		{AFFEB8C1-0B89-48E9-AB2C-DBF0D62DEEBE}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
