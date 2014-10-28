@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <time.h>
 using namespace std;
 
 class Solution{
@@ -29,6 +30,7 @@ public:
 
 int main()
 {
+	clock_t start = clock();
 	int a[] = { 2, 1, 3 };
 	vector<int> vec(a, a + 3);
 	vector<vector<int> > r = S.subsets(vec);
@@ -37,5 +39,7 @@ int main()
 			cout << r[i][j] << " ";
 		cout << endl;
 	}
+	clock_t end = clock();
+	cout << end - start <<"ms" << endl;
 	system("Pause");
 }
