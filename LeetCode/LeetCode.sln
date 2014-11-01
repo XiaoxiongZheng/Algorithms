@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniquePaths", "UniquePaths\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniquePathsII", "UniquePathsII\UniquePathsII.vcxproj", "{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle", "Triangle\Triangle.vcxproj", "{C982649E-2D19-44D8-A866-7C52CE5E102F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -383,6 +385,14 @@ Global
 		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|Win32.ActiveCfg = Release|Win32
 		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|Win32.Build.0 = Release|Win32
 		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|x64.ActiveCfg = Release|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Debug|Win32.Build.0 = Debug|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Debug|x64.ActiveCfg = Debug|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Release|ARM.ActiveCfg = Release|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Release|Win32.ActiveCfg = Release|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Release|Win32.Build.0 = Release|Win32
+		{C982649E-2D19-44D8-A866-7C52CE5E102F}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
