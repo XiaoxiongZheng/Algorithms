@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecodeWays", "DecodeWays\De
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniquePaths", "UniquePaths\UniquePaths.vcxproj", "{6BFDD5DF-4777-4461-A863-A87904D5CE6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniquePathsII", "UniquePathsII\UniquePathsII.vcxproj", "{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -373,6 +375,14 @@ Global
 		{6BFDD5DF-4777-4461-A863-A87904D5CE6C}.Release|Win32.ActiveCfg = Release|Win32
 		{6BFDD5DF-4777-4461-A863-A87904D5CE6C}.Release|Win32.Build.0 = Release|Win32
 		{6BFDD5DF-4777-4461-A863-A87904D5CE6C}.Release|x64.ActiveCfg = Release|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Debug|ARM.ActiveCfg = Debug|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Debug|Win32.Build.0 = Debug|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Debug|x64.ActiveCfg = Debug|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|ARM.ActiveCfg = Release|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|Win32.ActiveCfg = Release|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|Win32.Build.0 = Release|Win32
+		{904464C9-1993-4DD7-8E62-EC9B42AB9AEB}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
