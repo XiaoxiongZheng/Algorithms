@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+
+
 class Solution{
 public:
 	vector<vector<int> > combinationSum(vector<int> &candidates, int targets)
@@ -12,7 +14,7 @@ public:
 			return result;
 		vector<int> vec;
 		sort(candidates.begin(), candidates.end());
-		findElement(candidates, targets,0, vec, result);
+		findElement(candidates, targets, 0, vec, result);
 		return result;
 	}
 	void findElement(vector<int> &candidates, int targets, int start, vector<int> &vec, vector<vector<int> > &result)
@@ -20,11 +22,15 @@ public:
 		
 		for (int i = start; i < candidates.size(); i++)
 		{
+			if (i >= 1 && candidates[i] == candidates[i - 1] )
+			{
+				if (vec.size() != 0 && vec[vec.size() - 1] != candidates[i])
+					continue;
+			}
 			if (candidates[i] == targets)
 			{
 				vector<int> res = vec;
 				res.push_back(candidates[i]);
-				sort(res.begin(), res.end());
 				result.push_back(res);
 			}
 			else if (candidates[i] > targets)
@@ -32,7 +38,7 @@ public:
 			else {
 				vector<int> res = vec;
 				res.push_back(candidates[i]);
-				findElement(candidates, targets - candidates[i],i, res, result);
+				findElement(candidates, targets - candidates[i], i+1, res, result);
 			}
 		}
 	}
@@ -40,8 +46,8 @@ public:
 
 int main()
 {
-	int a[] = {1, 2, 3, 6, 7 };
-	int targets = 7;
+	int a[] = {1,1,1,2};
+	int targets = 2;
 	vector<int> vec(a, a + 4);
 	vector<vector<int> > result = S.combinationSum(vec, targets);
 	cout << result.size() << endl;
