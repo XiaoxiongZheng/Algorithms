@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombinationSum", "Combinati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combinations", "Combinations\Combinations.vcxproj", "{796FCFD4-ACB3-4E4D-8156-3FA8328B1331}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateParentheses", "GenerateParentheses\GenerateParentheses.vcxproj", "{54A22D57-AE55-4F2C-9664-31036531D43D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -463,6 +465,14 @@ Global
 		{796FCFD4-ACB3-4E4D-8156-3FA8328B1331}.Release|Win32.ActiveCfg = Release|Win32
 		{796FCFD4-ACB3-4E4D-8156-3FA8328B1331}.Release|Win32.Build.0 = Release|Win32
 		{796FCFD4-ACB3-4E4D-8156-3FA8328B1331}.Release|x64.ActiveCfg = Release|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Debug|Win32.Build.0 = Debug|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Debug|x64.ActiveCfg = Debug|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Release|ARM.ActiveCfg = Release|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Release|Win32.ActiveCfg = Release|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Release|Win32.Build.0 = Release|Win32
+		{54A22D57-AE55-4F2C-9664-31036531D43D}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

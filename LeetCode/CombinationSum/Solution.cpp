@@ -22,11 +22,6 @@ public:
 		
 		for (int i = start; i < candidates.size(); i++)
 		{
-			if (i >= 1 && candidates[i] == candidates[i - 1] )
-			{
-				if (vec.size() != 0 && vec[vec.size() - 1] != candidates[i])
-					continue;
-			}
 			if (candidates[i] == targets)
 			{
 				vector<int> res = vec;
