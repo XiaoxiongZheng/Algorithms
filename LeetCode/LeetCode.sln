@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GrayCode", "GrayCode\GrayCo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N-Queens", "N-Queens\N-Queens.vcxproj", "{B49ABBF9-C9C2-4B6C-9675-E96031A2E3E9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N-QueensII", "N-QueensII\N-QueensII.vcxproj", "{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -493,6 +495,14 @@ Global
 		{B49ABBF9-C9C2-4B6C-9675-E96031A2E3E9}.Release|Win32.ActiveCfg = Release|Win32
 		{B49ABBF9-C9C2-4B6C-9675-E96031A2E3E9}.Release|Win32.Build.0 = Release|Win32
 		{B49ABBF9-C9C2-4B6C-9675-E96031A2E3E9}.Release|x64.ActiveCfg = Release|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Debug|ARM.ActiveCfg = Debug|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Debug|Win32.Build.0 = Debug|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Debug|x64.ActiveCfg = Debug|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Release|ARM.ActiveCfg = Release|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Release|Win32.ActiveCfg = Release|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Release|Win32.Build.0 = Release|Win32
+		{FFB44A60-A9D4-4B80-98ED-1745D59EC7CE}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
