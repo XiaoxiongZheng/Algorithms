@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicatesFromSortedL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicatesFromSortedList", "RemoveDuplicatesFromSortedList\RemoveDuplicatesFromSortedList.vcxproj", "{1ECE6639-5381-4B50-9A59-BC6EBB7C28EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombinationSumII", "CombinationSumII\CombinationSumII.vcxproj", "{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -523,6 +525,14 @@ Global
 		{1ECE6639-5381-4B50-9A59-BC6EBB7C28EA}.Release|Win32.ActiveCfg = Release|Win32
 		{1ECE6639-5381-4B50-9A59-BC6EBB7C28EA}.Release|Win32.Build.0 = Release|Win32
 		{1ECE6639-5381-4B50-9A59-BC6EBB7C28EA}.Release|x64.ActiveCfg = Release|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Debug|Win32.Build.0 = Debug|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Debug|x64.ActiveCfg = Debug|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|ARM.ActiveCfg = Release|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|Win32.ActiveCfg = Release|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|Win32.Build.0 = Release|Win32
+		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
