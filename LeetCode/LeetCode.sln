@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveDuplicatesFromSortedL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombinationSumII", "CombinationSumII\CombinationSumII.vcxproj", "{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.vcxproj", "{B750046E-CBAA-425A-9124-265B94362EC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -533,6 +535,14 @@ Global
 		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|Win32.ActiveCfg = Release|Win32
 		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|Win32.Build.0 = Release|Win32
 		{0FEA42C0-CCDE-4F3E-A2DB-F040D0B1EE4F}.Release|x64.ActiveCfg = Release|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Debug|ARM.ActiveCfg = Debug|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Debug|Win32.Build.0 = Debug|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Debug|x64.ActiveCfg = Debug|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|ARM.ActiveCfg = Release|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|Win32.ActiveCfg = Release|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|Win32.Build.0 = Release|Win32
+		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
