@@ -109,6 +109,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CombinationSumII", "Combina
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.vcxproj", "{B750046E-CBAA-425A-9124-265B94362EC4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddBinary", "AddBinary\AddBinary.vcxproj", "{F1350557-7ADC-4CF0-906C-4A20DD15E09E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SameTree", "SameTree\SameTree.vcxproj", "{01129AE1-ADF1-481E-9BDE-4EC100D915AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -543,6 +547,22 @@ Global
 		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|Win32.ActiveCfg = Release|Win32
 		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|Win32.Build.0 = Release|Win32
 		{B750046E-CBAA-425A-9124-265B94362EC4}.Release|x64.ActiveCfg = Release|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Debug|ARM.ActiveCfg = Debug|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Debug|Win32.Build.0 = Debug|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Debug|x64.ActiveCfg = Debug|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Release|ARM.ActiveCfg = Release|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Release|Win32.ActiveCfg = Release|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Release|Win32.Build.0 = Release|Win32
+		{F1350557-7ADC-4CF0-906C-4A20DD15E09E}.Release|x64.ActiveCfg = Release|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Debug|ARM.ActiveCfg = Debug|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Debug|Win32.Build.0 = Debug|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Debug|x64.ActiveCfg = Debug|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Release|ARM.ActiveCfg = Release|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Release|Win32.ActiveCfg = Release|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Release|Win32.Build.0 = Release|Win32
+		{01129AE1-ADF1-481E-9BDE-4EC100D915AF}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
