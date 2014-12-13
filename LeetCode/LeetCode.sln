@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidSudoku", "ValidSudoku\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagrams", "Anagrams\Anagrams.vcxproj", "{8AD51F62-6A38-41EB-9B4A-867347F76EA5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyListwithRandomPointer", "CopyListwithRandomPointer\CopyListwithRandomPointer.vcxproj", "{9612A30C-6AB5-4986-83E2-A83EFE59610F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -603,6 +605,14 @@ Global
 		{8AD51F62-6A38-41EB-9B4A-867347F76EA5}.Release|Win32.ActiveCfg = Release|Win32
 		{8AD51F62-6A38-41EB-9B4A-867347F76EA5}.Release|Win32.Build.0 = Release|Win32
 		{8AD51F62-6A38-41EB-9B4A-867347F76EA5}.Release|x64.ActiveCfg = Release|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Debug|Win32.Build.0 = Debug|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Debug|x64.ActiveCfg = Debug|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|ARM.ActiveCfg = Release|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|Win32.ActiveCfg = Release|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|Win32.Build.0 = Release|Win32
+		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
