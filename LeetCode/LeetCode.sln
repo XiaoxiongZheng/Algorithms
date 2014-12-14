@@ -123,6 +123,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagrams", "Anagrams\Anagra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyListwithRandomPointer", "CopyListwithRandomPointer\CopyListwithRandomPointer.vcxproj", "{9612A30C-6AB5-4986-83E2-A83EFE59610F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveElement", "RemoveElement\RemoveElement.vcxproj", "{C011B2DD-8009-4CC5-A864-2FC43326076D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PascalsTrangle", "PascalsTrangle\PascalsTrangle.vcxproj", "{B098395A-6B7D-4693-90C7-F9EBFFE50943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -613,6 +617,22 @@ Global
 		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|Win32.ActiveCfg = Release|Win32
 		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|Win32.Build.0 = Release|Win32
 		{9612A30C-6AB5-4986-83E2-A83EFE59610F}.Release|x64.ActiveCfg = Release|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Debug|Win32.Build.0 = Debug|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Debug|x64.ActiveCfg = Debug|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Release|ARM.ActiveCfg = Release|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Release|Win32.ActiveCfg = Release|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Release|Win32.Build.0 = Release|Win32
+		{C011B2DD-8009-4CC5-A864-2FC43326076D}.Release|x64.ActiveCfg = Release|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Debug|ARM.ActiveCfg = Debug|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Debug|Win32.Build.0 = Debug|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Debug|x64.ActiveCfg = Debug|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Release|ARM.ActiveCfg = Release|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Release|Win32.ActiveCfg = Release|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Release|Win32.Build.0 = Release|Win32
+		{B098395A-6B7D-4693-90C7-F9EBFFE50943}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
