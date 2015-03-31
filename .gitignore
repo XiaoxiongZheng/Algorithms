@@ -5,3 +5,6 @@ Release/
 *.suo
 *.vcxproj.filters
 *.vcxproj
+*.opensdf
+*.vs
+*.sln
