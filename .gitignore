@@ -8,3 +8,4 @@ Release/
 *.opensdf
 *.vs
 *.sln
+*.DS_Store
