@@ -9,3 +9,8 @@ Release/
 *.vs
 *.sln
 *.DS_Store
+*.xcodeproj
+*.xcodeproj/
+*.xcscheme
+*.xcuserstate
+*.xcworkspacedata
