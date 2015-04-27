@@ -18,4 +18,5 @@ Release/
 *.cpp.swp
 *.txt
 .idea/
-
+*.in
+*.txt
