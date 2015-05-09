@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int mx = 10010;
+const int mx = 100010;
 
 
 int main() {
