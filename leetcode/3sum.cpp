@@ -4,7 +4,9 @@
 
 
 /**
- *      https://leetcode.com/problems/3sum/
+ * 3 sum
+ * https://leetcode.com/problems/3sum/
+ * time = O(n^2), space = O(1)
  */
 
 #include <vector>
