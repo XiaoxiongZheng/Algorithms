@@ -1,65 +1,45 @@
 #include <iostream>
-#include <vector>
 #include <string>
 #include "stdio.h"
 using namespace std;
 
-int n, m, r1, c1, r2, c2;
-char mx[505][505];
+int n, m, xs, ys, xt, yt;
+char a[505][505];
+bool vis[505][505];
 bool ok;
 
-bool board(int x, int y)
+int xx[4] = {0, 0, 1, -1}, yy[4] = {1, -1, 0, 0};
+void dfs(int x, int y)
 {
-    return x >= 0 && x < n && y >= 0 && y < m;
+    if (x > n || y > m || x < 1 || y < 1) return;
+    if (a[x][y] == 'X' && (x != xt || y != yt)) return;
+    if (!vis[x][y]) vis[x][y] = 1;
+    else return;
+    for (int k = 0; k < 4; k++)
+        dfs(x + xx[k], y + yy[k]);
 }
 
-void dfs(int rd1, int cd1, int rd2, int cd2)
-{
-    if (ok || (mx[rd1][cd1] == 'X' && (rd1 != rd2 || cd1 != cd2))) return;
-    if (rd1 == rd2 && cd1 == cd2 && mx[rd1][cd1] == 'X')
-    {
-        ok = true;
-        return;
-    }
-    mx[rd1][cd1] = 'X';
-    char temp;
-    if (board(rd1 - 1, cd1))
-    {
-        temp = mx[rd1 - 1][cd1];
-        dfs(rd1 - 1, cd1, rd2, cd2);
-        mx[rd1 - 1][cd1] = temp;
-    }
-    if (board(rd1 + 1, cd1))
-    {
-        temp = mx[rd1 + 1][cd1];
-        dfs(rd1 + 1, cd1, rd2, cd2);
-        mx[rd1 + 1][cd1] = temp;
-    }
-    if (board(rd1, cd1 - 1))
-    {
-        temp = mx[rd1][cd1 - 1];
-        dfs(rd1, cd1 - 1, rd2, cd2);
-        mx[rd1][cd1 - 1] = temp;
-    }
-    if (board(rd1, cd1 + 1))
-    {
-        temp = mx[rd1][cd1 + 1];
-        dfs(rd1, cd1 + 1, rd2, cd2);
-        mx[rd1][cd1 + 1] = temp;
-    }
-}
 int main() {
     cin >> n >> m;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
-            cin >> mx[i][j];
-    cin >> r1 >> c1 >> r2 >> c2;
+            cin >> a[i][j];
+    cin >> xs >> ys >> xt >> yt;
     ok = false;
-    mx[r1 - 1][c1 - 1] = '.';
-    dfs(r1 - 1, c1 - 1, r2 - 1, c2 - 1);
-    if (ok)
-        cout << "YES" << endl;
-    else
-        cout << "NO" << endl;
+    a[xs - 1][ys - 1] = '.';
+    dfs(xs, ys);
+    if (!vis[xt][yt]){cout << "NO" << endl; return 0;}
+    int t = 0;
+    for (int i = 0; i < 4; i++)
+        if (a[xt + xx[i]][yt + yy[i]] == '.')
+            t++;
+    if (xs == xt && ys == yt)
+    {
+        if (t == 0) cout << "NO" << endl;
+        else cout << "YES" << endl;
+        return 0;
+    }
+    if (a[xt][yt] != 'X' && t == 1) {cout << "NO" << endl; return 0;}
+    cout << "YES" << endl;
     return 0;
 }
