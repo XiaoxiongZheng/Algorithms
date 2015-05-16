@@ -6,7 +6,6 @@ using namespace std;
 int n, m, xs, ys, xt, yt;
 char a[505][505];
 bool vis[505][505];
-bool ok;
 
 int xx[4] = {0, 0, 1, -1}, yy[4] = {1, -1, 0, 0};
 void dfs(int x, int y)
@@ -21,12 +20,11 @@ void dfs(int x, int y)
 
 int main() {
     cin >> n >> m;
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < m; j++)
+    for (int i = 1; i <= n; i++)
+        for (int j = 1; j <= m; j++)
             cin >> a[i][j];
     cin >> xs >> ys >> xt >> yt;
-    ok = false;
-    a[xs - 1][ys - 1] = '.';
+    a[xs][ys] = '.';
     dfs(xs, ys);
     if (!vis[xt][yt]){cout << "NO" << endl; return 0;}
     int t = 0;

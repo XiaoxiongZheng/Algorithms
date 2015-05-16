@@ -1,9 +1,11 @@
 #include <iostream>
-#include "LongestSubstringWithoutRepeatingCharacters.cpp"
+#include <string>
+#include "PalindromeNumber.cpp"
 using namespace std;
 
 int main() {
     Solution s;
-    cout << s.lengthOfLongestSubstring("dvdf") << endl;
+    cout << s.isPalindrome(12211) << endl;
+    INT_MAX;
     return 0;
 }
