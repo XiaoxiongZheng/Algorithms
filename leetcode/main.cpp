@@ -1,12 +1,15 @@
 #include <iostream>
-#include <string>
-#include "ReverseNodesinkGroup.cpp"
+#include "MultiplyStrings.cpp"
+
 using namespace std;
 
 int main() {
     Solution s;
-    ListNode *l1 = new ListNode(1);
-    s.reverseKGroup(l1, 1);
+    string str = "123";
+    string str1 = "456";
+    cout << s.multiply(str, str1) << endl;
+
+
 
     return 0;
 }
