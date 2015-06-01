@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 int n, a[100001], s[100001], tmp = 1;
 
 int main() {
