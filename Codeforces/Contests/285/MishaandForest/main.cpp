@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <stack>
+#include <string.h>
 using namespace std;
 
 const int mx = 2e5+10;
