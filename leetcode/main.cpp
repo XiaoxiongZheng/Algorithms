@@ -1,15 +1,12 @@
 #include <iostream>
-#include "MultiplyStrings.cpp"
+#include "HappyNumber.cpp"
 
 using namespace std;
 
 int main() {
     Solution s;
-    string str = "123";
-    string str1 = "456";
-    cout << s.multiply(str, str1) << endl;
 
-
+    cout << s.isHappy(2) << endl;
 
     return 0;
 }
