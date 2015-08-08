@@ -1,12 +1,12 @@
 #include <iostream>
-#include "HappyNumber.cpp"
+#include "BasicCalculator.cpp"
 
 using namespace std;
 
 int main() {
     Solution s;
 
-    cout << s.isHappy(2) << endl;
+    cout << s.calculate("(7)-(0)+(4)") << endl;
 
     return 0;
 }
